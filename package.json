@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "live-server --entry-file=./public/index.html&nodemon restfulApi.js",
+    "start": "nodemon script.js",
     "server": "live-server --entry-file=./public/index.html"
   },
   "keywords": [],
