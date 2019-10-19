@@ -4,12 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon expressServer.js"
+    "start": "live-server nodemon restfulApi.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "live-server": "^1.2.1",
     "nodemon": "^1.19.4"
   },
   "dependencies": {
