@@ -1,16 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const port = 8080;
+const port = 3000;
 
 const app = express();
-
-// Middleware
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-
-app.get('/', (req, res) => {
-  console.log(req.query);
-  res.send('GET Route');
-});
+app.use(express.static(__dirname + '/public'));
 
 app.listen(port);

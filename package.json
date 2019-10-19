@@ -4,13 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "live-server nodemon restfulApi.js"
+    "start": "live-server --entry-file=./public/index.html&nodemon restfulApi.js",
+    "server": "live-server --entry-file=./public/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1",
     "nodemon": "^1.19.4"
   },
   "dependencies": {
